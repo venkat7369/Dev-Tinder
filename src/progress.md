@@ -20,6 +20,11 @@ Order of route matter a lot
 Installed postman app and make a workspace and then collection then test the APIs 
 Learned how CURD operations (GET, POST, DELETE, PUT, FETCH etc...) operations works on server and test then in postman 
 
+Advance routing Concepts:
+How get("/a*bc") works or ("/a?bc") works etc 
+how (/.*fly$/) works etc 
+how : works in routes
+how to read req.params in routes
 
 
 
