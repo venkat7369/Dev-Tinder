@@ -32,7 +32,10 @@ How to handle routes
 what happen when we doesnt send response. it will be in infinte loop 
 There will be multiple route handles in single route 
 how mutiple handlers works in singlw route using the next()
+next function and erros along with res.send();
 
-
-
-
+what is Middlewares
+how express JS basically handles requests behind the scenes
+difference b/w app.res and app.all
+wrote a dummy auth middleware for admin
+write a dummy auth middleware for all user routes
