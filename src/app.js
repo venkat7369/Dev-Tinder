@@ -4,12 +4,22 @@ const app = express();
 
 
 
-app.get("/user", (req, res) => {
-    res.send({firstName: "venkat", lastName: "Gutta"})
-})
-
-app.use("/test", (req, res) => {
-    res.send("Hello from the server!");
+app.use("/user", (req, res, next) => {
+    //Route Handler
+    //res.send("route handler 1");
+    console.log("Handlling the route user!");
+    //res.send("Response!");
+    next();
+},
+(req, res, next) => {
+    console.log("Handling the route user 2");
+    //res.send("2nd response!");
+    next();
+},
+(req, res, next) => {
+    console.log("Handling the route user 3");
+    res.send("3nd response!");
+    next()
 });
 
 app.listen(3000, () => {

@@ -27,4 +27,12 @@ how : works in routes
 how to read req.params in routes
 
 
+S3. Episode 5
+How to handle routes
+what happen when we doesnt send response. it will be in infinte loop 
+There will be multiple route handles in single route 
+how mutiple handlers works in singlw route using the next()
+
+
+
 
