@@ -39,3 +39,4 @@ how express JS basically handles requests behind the scenes
 difference b/w app.res and app.all
 wrote a dummy auth middleware for admin
 write a dummy auth middleware for all user routes
+Error handling using app.use("/, (err, req, res, next) = {});
